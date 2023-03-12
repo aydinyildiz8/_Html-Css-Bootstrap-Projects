@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather:ital,wght@0,300;0,400;1,400;1,700&family=Play:wght@400;700&family=Roboto:wght@300;400&family=Staatliches&display=swap");
+body {
+  background-color: cyan;
+}
+h2 {
+  color: white;
+  letter-spacing: 5px;
+  background-color: crimson;
+  font-family: "Merriweather", serif;
+  font-weight: 150px;
+}
+p {
+  font-weight: normal;
+  color: black;
+  font-size: larger;
+}

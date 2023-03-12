@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background-image: url(https://static.wixstatic.com/media/d11edf_72fe03dc5fd1432bbf183a15207fd09e~mv2.png/v1/fill/w_958,h_639,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/G%C3%B6rsel---45.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+  background-color: rgb(148, 55, 255);
+}
+
+table {
+  width: 80%;
+}
+thead td {
+  width: 100px;
+}
+
+.header td a {
+  color: white;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+#header {
+  height: 1px;
+}
+
+.header td:hover {
+  background-color: darkslateblue;
+  cursor: pointer;
+}
+
+#resimh1 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: white;
+  padding-left: 132px;
+  padding-top: 100px;
+}
+#resimh2 {
+  font-size: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+  font-weight: normal;
+  padding-left: 132px;
+}
+
+.btn {
+  color: white;
+  font-weight: bold;
+  width: 150px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(49, 18, 85);
+}
+
+.btn:hover {
+  background-color: darkslateblue;
+}
+
+.btn1 {
+  color: white;
+  font-weight: bold;
+  width: 150px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.btn1:hover {
+  background-color: darkslateblue;
+}
+
+.iki {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  color: rgb(0, 54, 85);
+  background-color: white;
+  text-align: center;
+  height: 400px;
+}
+
+#iki {
+  font-size: 28px;
+}
+
+.dropdown {
+  position: relative;
+  right: 40px;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: darkslateblue;
+  min-width: 203px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+  width: 150px;
+}
+
+.dropdown-content a:hover {
+  background-color: blue;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.table3 {
+  width: 100%;
+}
+
+#t3td1 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 10%;
+  font-size: 50px;
+  width: 50%;
+  background-color: rgb(201, 155, 255);
+}
+
+.table4 {
+  border: 1px solid black;
+  height: 500px;
+  width: 100%;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 54, 85);
+}
+
+.table5 {
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: rgb(0, 54, 85);
+  font-size: 15px;
+}
+
+.table6 {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 40px;
+}
+
+.table7 {
+  background-color: rgb(99, 37, 170);
+  width: 100%;
+  color: rgb(255, 255, 255);
+}
+
+.table7 td {
+  padding-left: 6%;
+  width: 25%;
+  color: rgb(201, 155, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  padding-bottom: 12%;
+}
+
+#table7a {
+  padding-left: 10%;
+  width: 25%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  padding-bottom: 15%;
+}
+
+#table7b {
+  padding-left: 8%;
+  width: 25%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  padding-bottom: 11%;
+}
+
+#table7c {
+  padding-left: 8%;
+  width: 25%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  padding-bottom: 5%;
+}
+
+.table8 {
+  width: 100%;
+  background-color: rgb(49, 18, 85);
+  height: 125px;
+}
+
+#table8a {
+  padding-left: 23%;
+  padding-bottom: 12px;
+}
+
+#table8b {
+  padding-bottom: 12px;
+  padding-left: 10%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.stickybuton {
+  text-decoration: none;
+  color: white;
+  padding: 10px 30px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #9437ff;
+  margin-right: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  font-weight: 500;
+  position: fixed;
+  bottom: 13px;
+  right: 50px;
+}
